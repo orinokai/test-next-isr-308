@@ -1,0 +1,9 @@
+[build]
+command = "next build"
+publish = ".next"
+
+[dev]
+framework = "#static"
+
+[[plugins]]
+package = "@netlify/plugin-nextjs"

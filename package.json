@@ -1,0 +1,23 @@
+{
+  "name": "test-next-isr-404",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@netlify/functions": "^1.2.0",
+    "@netlify/plugin-nextjs": "^4.24.3",
+    "@supabase/supabase-js": "^1.35.7",
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
